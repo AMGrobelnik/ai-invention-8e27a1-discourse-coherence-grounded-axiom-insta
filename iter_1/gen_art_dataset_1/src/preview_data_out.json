@@ -1,0 +1,57 @@
+{
+  "datasets": [
+    {
+      "dataset": "entailment_bank_task2",
+      "examples": [
+        {
+          "input": "Question: Stars are organized into patterns called constellations. One constellation is named Leo. Which statement best explains why Leo appears in different areas of the sky throughout the year?\nCont...",
+          "output": "Hypothesis: the earth revolving around the sun causes leo to appear in different areas in the sky at different times of year\nProof: sent1 & sent17 -> int1: leo is a constellation containing stars; int...",
+          "metadata_example_id": "MDSA_2009_4_30",
+          "metadata_split": "train",
+          "metadata_hypothesis": "the earth revolving around the sun causes leo to appear in different areas in the sky at different times of year",
+          "metadata_context_json": "{\"sent1\": \"leo is a kind of constellation\", \"sent2\": \"to be found in means to be contained in\", \"sent3\": \"move around means revolve\", \"sent4\": \"if something is a part of something else then that somet...",
+          "metadata_proof_raw": "sent1 & sent17 -> int1: leo is a constellation containing stars; int1 & sent25 -> hypothesis; ",
+          "metadata_proof_steps_json": "[{\"step_id\": \"int1\", \"premise_ids\": [\"sent1\", \"sent17\"], \"conclusion_id\": \"int1\", \"conclusion_text\": \"leo is a constellation containing stars\"}, {\"step_id\": \"hypothesis\", \"premise_ids\": [\"int1\", \"sent...",
+          "metadata_depth_of_proof": 2,
+          "metadata_length_of_proof": 2,
+          "metadata_num_context_sentences": 25,
+          "metadata_distractors_json": "[\"sent7\", \"sent6\", \"sent24\", \"sent21\", \"sent20\", \"sent13\", \"sent4\", \"sent22\", \"sent18\", \"sent16\", \"sent23\", \"sent15\", \"sent19\", \"sent3\", \"sent5\", \"sent10\", \"sent9\", \"sent11\", \"sent2\", \"sent14\", \"sent1...",
+          "metadata_row_index": 0,
+          "metadata_task_type": "entailment_tree"
+        },
+        {
+          "input": "Question: How does the appearance of a constellation change during the night?\nContext: sent1: if something used to be in the past then that something has changed sent2: appear is similar to apparent s...",
+          "output": "Hypothesis: the earth rotating on its axis causes stars to move relative to the horizon during the night\nProof: sent11 & sent3 & sent8 -> int1: apparent motion of stars is when stars appear to move re...",
+          "metadata_example_id": "Mercury_SC_LBS10351",
+          "metadata_split": "train",
+          "metadata_hypothesis": "the earth rotating on its axis causes stars to move relative to the horizon during the night",
+          "metadata_context_json": "{\"sent1\": \"if something used to be in the past then that something has changed\", \"sent2\": \"appear is similar to apparent\", \"sent3\": \"apparent motion is when an object appears to move relative to anoth...",
+          "metadata_proof_raw": "sent11 & sent3 & sent8 -> int1: apparent motion of stars is when stars appear to move relative to earth's position; int1 & sent6 -> int2: the earth rotating on its axis causes apparent motion of stars...",
+          "metadata_proof_steps_json": "[{\"step_id\": \"int1\", \"premise_ids\": [\"sent11\", \"sent3\", \"sent8\"], \"conclusion_id\": \"int1\", \"conclusion_text\": \"apparent motion of stars is when stars appear to move relative to earth's position\"}, {\"s...",
+          "metadata_depth_of_proof": 3,
+          "metadata_length_of_proof": 3,
+          "metadata_num_context_sentences": 25,
+          "metadata_distractors_json": "[\"sent20\", \"sent10\", \"sent18\", \"sent7\", \"sent2\", \"sent4\", \"sent21\", \"sent16\", \"sent13\", \"sent9\", \"sent22\", \"sent15\", \"sent1\", \"sent12\", \"sent14\", \"sent19\", \"sent25\", \"sent24\", \"sent5\", \"sent17\"]",
+          "metadata_row_index": 1,
+          "metadata_task_type": "entailment_tree"
+        },
+        {
+          "input": "Question: Which of the following statements best explains why stars appear to move across Earth's sky each night?\nContext: sent1: appear is similar to apparent sent2: to rotate means to complete a rot...",
+          "output": "Hypothesis: the earth rotating on its axis causes stars to appear to move relative to the horizon during the night\nProof: sent11 & sent3 -> int1: stars apearing to move relative to the horizon during ...",
+          "metadata_example_id": "MCAS_2008_5_5638",
+          "metadata_split": "train",
+          "metadata_hypothesis": "the earth rotating on its axis causes stars to appear to move relative to the horizon during the night",
+          "metadata_context_json": "{\"sent1\": \"appear is similar to apparent\", \"sent2\": \"to rotate means to complete a rotation\", \"sent3\": \"stars appear to move relative to the horizon during the night\", \"sent4\": \"phase means state\", \"s...",
+          "metadata_proof_raw": "sent11 & sent3 -> int1: stars apearing to move relative to the horizon during the night is an example of diurnal motion; int1 & sent18 -> hypothesis; ",
+          "metadata_proof_steps_json": "[{\"step_id\": \"int1\", \"premise_ids\": [\"sent11\", \"sent3\"], \"conclusion_id\": \"int1\", \"conclusion_text\": \"stars apearing to move relative to the horizon during the night is an example of diurnal motion\"},...",
+          "metadata_depth_of_proof": 2,
+          "metadata_length_of_proof": 2,
+          "metadata_num_context_sentences": 25,
+          "metadata_distractors_json": "[\"sent16\", \"sent6\", \"sent9\", \"sent15\", \"sent17\", \"sent14\", \"sent8\", \"sent24\", \"sent12\", \"sent1\", \"sent2\", \"sent4\", \"sent10\", \"sent5\", \"sent23\", \"sent22\", \"sent25\", \"sent7\", \"sent20\", \"sent21\", \"sent19...",
+          "metadata_row_index": 2,
+          "metadata_task_type": "entailment_tree"
+        }
+      ]
+    }
+  ]
+}

@@ -1,0 +1,15 @@
+{
+  "title": "EntailmentBank Task 2 Multi-Hop Proof Dataset",
+  "layman_summary": "Science questions with step-by-step logical proof trees justifying each answer by chaining multiple facts.",
+  "summary": "EntailmentBank Task 2 (ariesutiono/entailment-bank-v3, CC-BY-4.0) from EMNLP 2021 'Explaining Answers with Entailment Trees' (Dalvi et al., Allen Institute for AI). Contains 1,500 examples (1,313 train + 187 dev) of elementary-school science questions with structured multi-hop entailment trees justifying each answer. Each example includes: (1) a natural language hypothesis to prove, (2) ~25 context sentences mixing relevant premises with irrelevant distractors (Task 2 setting), (3) a linearized proof string encoding multi-hop entailment steps (e.g. 'sent1 & sent17 -> int1: ...; int1 & sent25 -> hypothesis'), (4) integer proof depth and length, and (5) metadata including sentence-labeled context map, distractor IDs, intermediate conclusions, and lisp/polish proof variants. Schema mapping: input = question + full context string; output = hypothesis + linearized proof. Metadata fields: example_id, split, hypothesis, context_json (sentN→text map), proof_raw, proof_steps_json (premise_ids, conclusion_id, conclusion_text), depth_of_proof, length_of_proof, num_context_sentences, distractors_json, task_type. Suited for RST-annotation pipeline: structured proof steps identify bridged sentence pairs, enabling bridging-category classification (discourse-recoverable, commonsense, directly-stated) via OpenRouter RST calls. Task 2 is the hardest realistic configuration. 1,500 examples at proof depths 2-5 yield over 100 discourse-implicit examples. File size 7.6 MB, under 100 MB limit.",
+  "out_expected_files": {
+    "script": "data.py",
+    "datasets": [
+      {
+        "full": ["full_data_out.json"],
+        "mini": "mini_data_out.json",
+        "preview": "preview_data_out.json"
+      }
+    ]
+  }
+}
