@@ -1,0 +1,99 @@
+\relax 
+\providecommand\hyper@newdestlabel[2]{}
+\providecommand\HyField@AuxAddToFields[1]{}
+\providecommand\HyField@AuxAddToCoFields[2]{}
+\citation{Dalvi2021}
+\citation{Pan2023}
+\citation{Olausson2023}
+\citation{Di2025}
+\citation{Wu2025}
+\citation{Li2024}
+\@writefile{toc}{\contentsline {section}{\numberline {1}Introduction}{1}{section.1}\protected@file@percent }
+\citation{Lee2024}
+\citation{Weir2024}
+\citation{Mann1988}
+\citation{Liu2021}
+\citation{Maekawa2024}
+\citation{Pan2023}
+\citation{Olausson2023}
+\citation{Di2025}
+\citation{Wu2025}
+\citation{Li2024}
+\citation{Lee2024}
+\citation{Weir2024}
+\@writefile{lof}{\contentsline {figure}{\numberline {1}{\ignorespaces End-to-end DCGAI pipeline. Source document text is parsed by DMRST into an RST tree. Inference-bearing relations (CAUSE-RESULT, CONDITION, PURPOSE, CONTRAST/CONCESSION) are mapped to coarse axiom schemas. An LLM instantiates predicate content for each schema, guided by the nucleus and satellite EDU segments and the current KB predicate list (canonicalization). The resulting T2 axioms are added to the SWI-Prolog KB alongside T1 content predicates from sentence-level FOL extraction. SWI-Prolog runs backward chaining; proof failures are classified as content-miss vs.\ discourse-axiom-miss for targeted re-querying.}}{3}{figure.1}\protected@file@percent }
+\newlabel{fig:architecture}{{1}{3}{End-to-end DCGAI pipeline. Source document text is parsed by DMRST into an RST tree. Inference-bearing relations (CAUSE-RESULT, CONDITION, PURPOSE, CONTRAST/CONCESSION) are mapped to coarse axiom schemas. An LLM instantiates predicate content for each schema, guided by the nucleus and satellite EDU segments and the current KB predicate list (canonicalization). The resulting T2 axioms are added to the SWI-Prolog KB alongside T1 content predicates from sentence-level FOL extraction. SWI-Prolog runs backward chaining; proof failures are classified as content-miss vs.\ discourse-axiom-miss for targeted re-querying}{figure.1}{}}
+\@writefile{toc}{\contentsline {section}{\numberline {2}Related Work}{3}{section.2}\protected@file@percent }
+\@writefile{toc}{\contentsline {paragraph}{Text-to-FOL and Neuro-Symbolic Reasoning.}{3}{section*.1}\protected@file@percent }
+\@writefile{toc}{\contentsline {paragraph}{Goal-Grounded Neuro-Symbolic Systems.}{3}{section*.2}\protected@file@percent }
+\citation{Huang2022}
+\citation{Mann1988}
+\citation{Carlson2001}
+\citation{Liu2021}
+\citation{Maekawa2024}
+\citation{Dalvi2021}
+\citation{Tafjord2021}
+\@writefile{toc}{\contentsline {paragraph}{Discourse-Aware Neural Reasoning.}{4}{section*.3}\protected@file@percent }
+\@writefile{toc}{\contentsline {paragraph}{RST Parsing.}{4}{section*.4}\protected@file@percent }
+\@writefile{toc}{\contentsline {paragraph}{EntailmentBank.}{4}{section*.5}\protected@file@percent }
+\@writefile{toc}{\contentsline {section}{\numberline {3}Methods}{4}{section.3}\protected@file@percent }
+\@writefile{toc}{\contentsline {subsection}{\numberline {3.1}Discourse-to-Schema Mapping}{4}{subsection.3.1}\protected@file@percent }
+\newlabel{sec:schema-mapping}{{3.1}{4}{Discourse-to-Schema Mapping}{subsection.3.1}{}}
+\citation{Maekawa2024}
+\@writefile{toc}{\contentsline {subsection}{\numberline {3.2}Prerequisite Parser Reliability Audit (Step~0)}{5}{subsection.3.2}\protected@file@percent }
+\newlabel{sec:audit}{{3.2}{5}{Prerequisite Parser Reliability Audit (Step~0)}{subsection.3.2}{}}
+\@writefile{toc}{\contentsline {subsection}{\numberline {3.3}Coverage Quantification (Step~1)}{5}{subsection.3.3}\protected@file@percent }
+\@writefile{toc}{\contentsline {subsection}{\numberline {3.4}Benchmark Suitability Check (Step~2)}{5}{subsection.3.4}\protected@file@percent }
+\@writefile{toc}{\contentsline {subsection}{\numberline {3.5}Discourse-Grounded Extraction Pipeline (Step~3)}{5}{subsection.3.5}\protected@file@percent }
+\newlabel{sec:pipeline}{{3.5}{5}{Discourse-Grounded Extraction Pipeline (Step~3)}{subsection.3.5}{}}
+\@writefile{lof}{\contentsline {figure}{\numberline {2}{\ignorespaces Distribution of proof depths and lengths in EntailmentBank Task~2 (1,500 examples: 1,313 train + 187 dev). Most examples require 2--3 proof steps; examples at depth 3--5 are primary targets for discourse-derived bridging axioms, as deeper proofs more frequently require cross-sentence implicit knowledge.}}{6}{figure.2}\protected@file@percent }
+\newlabel{fig:dataset-stats}{{2}{6}{Distribution of proof depths and lengths in EntailmentBank Task~2 (1,500 examples: 1,313 train + 187 dev). Most examples require 2--3 proof steps; examples at depth 3--5 are primary targets for discourse-derived bridging axioms, as deeper proofs more frequently require cross-sentence implicit knowledge}{figure.2}{}}
+\@writefile{toc}{\contentsline {subsection}{\numberline {3.6}T1/T2/T3 Hallucination Taxonomy (Step~3b)}{6}{subsection.3.6}\protected@file@percent }
+\newlabel{sec:taxonomy}{{3.6}{6}{T1/T2/T3 Hallucination Taxonomy (Step~3b)}{subsection.3.6}{}}
+\citation{Dalvi2021}
+\citation{Lee2024}
+\citation{Weir2024}
+\@writefile{toc}{\contentsline {subsection}{\numberline {3.7}Hybrid Reasoning (Step~4)}{7}{subsection.3.7}\protected@file@percent }
+\@writefile{toc}{\contentsline {section}{\numberline {4}Experiments}{7}{section.4}\protected@file@percent }
+\newlabel{sec:experiments}{{4}{7}{Experiments}{section.4}{}}
+\@writefile{toc}{\contentsline {subsection}{\numberline {4.1}Setup}{7}{subsection.4.1}\protected@file@percent }
+\@writefile{toc}{\contentsline {paragraph}{Dataset.}{7}{section*.6}\protected@file@percent }
+\@writefile{toc}{\contentsline {paragraph}{Discourse-Implicit Subset.}{7}{section*.7}\protected@file@percent }
+\@writefile{toc}{\contentsline {paragraph}{Baselines.}{7}{section*.8}\protected@file@percent }
+\citation{Liu2021}
+\citation{Maekawa2024}
+\@writefile{toc}{\contentsline {paragraph}{Metrics.}{8}{section*.9}\protected@file@percent }
+\@writefile{toc}{\contentsline {paragraph}{Implementation.}{8}{section*.10}\protected@file@percent }
+\@writefile{toc}{\contentsline {subsection}{\numberline {4.2}Parser Reliability Audit Results (Table~1)}{8}{subsection.4.2}\protected@file@percent }
+\newlabel{sec:audit-results}{{4.2}{8}{Parser Reliability Audit Results (Table~1)}{subsection.4.2}{}}
+\@writefile{toc}{\contentsline {subsection}{\numberline {4.3}Coverage Quantification Results}{8}{subsection.4.3}\protected@file@percent }
+\@writefile{toc}{\contentsline {subsection}{\numberline {4.4}Main Results}{8}{subsection.4.4}\protected@file@percent }
+\@writefile{toc}{\contentsline {paragraph}{Recall on discourse-implicit steps.}{8}{section*.11}\protected@file@percent }
+\@writefile{toc}{\contentsline {paragraph}{T3 hallucination rate.}{9}{section*.12}\protected@file@percent }
+\@writefile{toc}{\contentsline {paragraph}{Precision of T1 atomic facts.}{9}{section*.13}\protected@file@percent }
+\@writefile{toc}{\contentsline {paragraph}{Comparison with SymBa and NELLIE.}{9}{section*.14}\protected@file@percent }
+\@writefile{toc}{\contentsline {subsection}{\numberline {4.5}Ablation Study}{9}{subsection.4.5}\protected@file@percent }
+\@writefile{toc}{\contentsline {section}{\numberline {5}Discussion}{9}{section.5}\protected@file@percent }
+\@writefile{toc}{\contentsline {subsection}{\numberline {5.1}Scope and Limitations}{9}{subsection.5.1}\protected@file@percent }
+\citation{Lee2024}
+\citation{Weir2024}
+\@writefile{toc}{\contentsline {subsection}{\numberline {5.2}Document-Grounded vs.\ Goal-Grounded Schema Derivation}{10}{subsection.5.2}\protected@file@percent }
+\@writefile{toc}{\contentsline {subsection}{\numberline {5.3}Connection to Compiler Type Systems}{10}{subsection.5.3}\protected@file@percent }
+\@writefile{toc}{\contentsline {section}{\numberline {6}Conclusion}{10}{section.6}\protected@file@percent }
+\bibstyle{plainnat}
+\bibdata{references}
+\bibcite{Carlson2001}{{1}{2001}{{Carlson et~al.}}{{Carlson, Marcu, and Okurovsky}}}
+\bibcite{Dalvi2021}{{2}{2021}{{Dalvi et~al.}}{{Dalvi, Jansen, Tafjord, Xie, Smith, Pipatanangkura, and Clark}}}
+\bibcite{Di2025}{{3}{2025}{{Di et~al.}}{{Di, Zhang, Lv, zhen Cui, and Liu}}}
+\bibcite{Huang2022}{{4}{2022}{{Huang et~al.}}{{Huang, Liu, Xu, Fang, Lin, and Liang}}}
+\bibcite{Lee2024}{{5}{2024}{{Lee and Hwang}}{{}}}
+\bibcite{Li2024}{{6}{2024}{{Li et~al.}}{{Li, Li, Liu, Zeng, Cheng, Huang, and Liu}}}
+\bibcite{Liu2021}{{7}{2021}{{Liu et~al.}}{{Liu, Shi, and Chen}}}
+\bibcite{Maekawa2024}{{8}{2024}{{Maekawa et~al.}}{{Maekawa, Hirao, Kamigaito, and Okumura}}}
+\bibcite{Mann1988}{{9}{1988}{{Mann and Thompson}}{{}}}
+\bibcite{Olausson2023}{{10}{2023}{{Olausson et~al.}}{{Olausson, Gu, Lipkin, Zhang, Solar-Lezama, Tenenbaum, and Levy}}}
+\bibcite{Pan2023}{{11}{2023}{{Pan et~al.}}{{Pan, Albalak, Wang, and Wang}}}
+\bibcite{Tafjord2021}{{12}{2021}{{Tafjord et~al.}}{{Tafjord, Dalvi, and Clark}}}
+\bibcite{Weir2024}{{13}{2024}{{Weir and Durme}}{{}}}
+\bibcite{Wu2025}{{14}{2025}{{Wu and Liu}}{{}}}
+\gdef \@abspage@last{12}

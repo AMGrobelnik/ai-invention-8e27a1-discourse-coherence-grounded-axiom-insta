@@ -1,0 +1,121 @@
+\begin{thebibliography}{14}
+\providecommand{\natexlab}[1]{#1}
+\providecommand{\url}[1]{\texttt{#1}}
+\expandafter\ifx\csname urlstyle\endcsname\relax
+  \providecommand{\doi}[1]{doi: #1}\else
+  \providecommand{\doi}{doi: \begingroup \urlstyle{rm}\Url}\fi
+
+\bibitem[Carlson et~al.(2001)Carlson, Marcu, and Okurovsky]{Carlson2001}
+Lynn Carlson, Daniel Marcu, and Mary~Ellen Okurovsky.
+\newblock Building a discourse-tagged corpus in the framework of rhetorical
+  structure theory.
+\newblock In \emph{Proceedings of the SIGDIAL Workshop on Discourse and
+  Dialogue}, pages 1--10, 2001.
+\newblock \doi{10.3115/1118078.1118083}.
+
+\bibitem[Dalvi et~al.(2021)Dalvi, Jansen, Tafjord, Xie, Smith, Pipatanangkura,
+  and Clark]{Dalvi2021}
+Bhavana Dalvi, Peter~Alexander Jansen, Oyvind Tafjord, Zhengnan Xie, Hannah
+  Smith, Leighanna Pipatanangkura, and Peter Clark.
+\newblock Explaining answers with entailment trees.
+\newblock In \emph{Conference on Empirical Methods in Natural Language
+  Processing}, pages 7358--7370, 2021.
+\newblock \doi{10.18653/v1/2021.emnlp-main.585}.
+
+\bibitem[Di et~al.(2025)Di, Zhang, Lv, zhen Cui, and Liu]{Di2025}
+Zhengkun Di, Chaoli Zhang, Hongtao Lv, Li~zhen Cui, and Lei Liu.
+\newblock Lorp: Llm-based logical reasoning via prolog.
+\newblock \emph{Knowledge-Based Systems}, 327:\penalty0 114140, 2025.
+\newblock \doi{10.1016/j.knosys.2025.114140}.
+
+\bibitem[Huang et~al.(2022)Huang, Liu, Xu, Fang, Lin, and Liang]{Huang2022}
+Yinya Huang, Lemao Liu, Kun Xu, Meng Fang, Liang Lin, and Xiaodan Liang.
+\newblock Discourse-aware graph networks for textual logical reasoning.
+\newblock \emph{IEEE Transactions on Pattern Analysis and Machine
+  Intelligence}, 45:\penalty0 11668--11688, 2022.
+\newblock \doi{10.1109/TPAMI.2023.3280178}.
+
+\bibitem[Lee and Hwang(2024)]{Lee2024}
+Jinu Lee and Wonseok Hwang.
+\newblock Symba: Symbolic backward chaining for structured natural language
+  reasoning.
+\newblock In \emph{Proceedings of the 2024 Conference of the North American
+  Chapter of the Association for Computational Linguistics}, pages 2468--2484,
+  2024.
+\newblock \doi{10.18653/v1/2025.naacl-long.124}.
+
+\bibitem[Li et~al.(2024)Li, Li, Liu, Zeng, Cheng, Huang, and Liu]{Li2024}
+Qingchuan Li, Jiatong Li, Tongxuan Liu, Yuting Zeng, Mingyue Cheng, Weizhe
+  Huang, and Qi~Liu.
+\newblock Leveraging llms for hypothetical deduction in logical inference: A
+  neuro-symbolic approach.
+\newblock \emph{arXiv preprint arXiv:2410.21779}, 2024.
+\newblock \doi{10.48550/arXiv.2410.21779}.
+
+\bibitem[Liu et~al.(2021)Liu, Shi, and Chen]{Liu2021}
+Zhengyuan Liu, Ke~Shi, and Nancy~F. Chen.
+\newblock Dmrst: A joint framework for document-level multilingual rst
+  discourse segmentation and parsing.
+\newblock In \emph{Proceedings of the 2nd Workshop on Computational Approaches
+  to Discourse (CODI)}, pages 154--164, 2021.
+\newblock \doi{10.18653/v1/2021.codi-main.15}.
+
+\bibitem[Maekawa et~al.(2024)Maekawa, Hirao, Kamigaito, and
+  Okumura]{Maekawa2024}
+Aru Maekawa, Tsutomu Hirao, Hidetaka Kamigaito, and Manabu Okumura.
+\newblock Can we obtain significant success in rst discourse parsing by using
+  large language models?
+\newblock In \emph{Proceedings of the 18th Conference of the European Chapter
+  of the Association for Computational Linguistics}, pages 2803--2815, 2024.
+\newblock \doi{10.48550/arXiv.2403.05065}.
+
+\bibitem[Mann and Thompson(1988)]{Mann1988}
+William~C. Mann and Sandra~A. Thompson.
+\newblock Rhetorical structure theory: Toward a functional theory of text
+  organization.
+\newblock \emph{Text \& Talk}, 8\penalty0 (3):\penalty0 243--281, 1988.
+\newblock \doi{10.1515/text.1.1988.8.3.243}.
+
+\bibitem[Olausson et~al.(2023)Olausson, Gu, Lipkin, Zhang, Solar-Lezama,
+  Tenenbaum, and Levy]{Olausson2023}
+Theo~X. Olausson, Alex Gu, Benjamin Lipkin, Cedegao~E. Zhang, Armando
+  Solar-Lezama, Josh Tenenbaum, and Roger Levy.
+\newblock Linc: A neurosymbolic approach for logical reasoning by combining
+  language models with first-order logic provers.
+\newblock In \emph{Conference on Empirical Methods in Natural Language
+  Processing}, pages 5153--5176, 2023.
+\newblock \doi{10.18653/v1/2023.emnlp-main.313}.
+
+\bibitem[Pan et~al.(2023)Pan, Albalak, Wang, and Wang]{Pan2023}
+Liangming Pan, Alon Albalak, Xinyi Wang, and William~Yang Wang.
+\newblock Logic-lm: Empowering large language models with symbolic solvers for
+  faithful logical reasoning.
+\newblock In \emph{Findings of the Conference on Empirical Methods in Natural
+  Language Processing}, 2023.
+\newblock \doi{10.48550/arXiv.2305.12295}.
+
+\bibitem[Tafjord et~al.(2021)Tafjord, Dalvi, and Clark]{Tafjord2021}
+Oyvind Tafjord, Bhavana Dalvi, and Peter Clark.
+\newblock Proofwriter: Generating implications, proofs, and abductive
+  statements over natural language.
+\newblock In \emph{Findings of the Association for Computational Linguistics:
+  ACL-IJCNLP 2021}, pages 3621--3634, 2021.
+\newblock \doi{10.18653/v1/2021.findings-acl.317}.
+
+\bibitem[Weir and Durme(2024)]{Weir2024}
+Nathaniel Weir and Benjamin~Van Durme.
+\newblock Nellie: A neuro-symbolic inference engine for grounded,
+  compositional, and explainable reasoning.
+\newblock In \emph{Proceedings of the 33rd International Joint Conference on
+  Artificial Intelligence}, pages 3602--3612, 2024.
+\newblock \doi{10.24963/ijcai.2024/399}.
+
+\bibitem[Wu and Liu(2025)]{Wu2025}
+Katherine Wu and Yanhong~A. Liu.
+\newblock Lp-lm: No hallucinations in question answering with logic
+  programming.
+\newblock In \emph{International Conference on Logic Programming}, pages
+  69--77, 2025.
+\newblock \doi{10.4204/EPTCS.416.5}.
+
+\end{thebibliography}

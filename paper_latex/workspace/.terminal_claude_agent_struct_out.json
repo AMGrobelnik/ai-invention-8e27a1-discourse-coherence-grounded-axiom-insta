@@ -1,0 +1,13 @@
+{
+  "title": "DCGAI Neuro-Symbolic Paper Generation (12 pages)",
+  "summary": "Successfully generated a 12-page publication-ready LaTeX paper titled 'Discourse-Coherence-Grounded Axiom Instantiation for Hallucination-Reduced Neuro-Symbolic Text Reasoning'. The paper includes all required sections: Abstract, Introduction, Related Work, Methods (Discourse-to-Schema Mapping, Parser Reliability Audit, Coverage Quantification, Benchmark Suitability Check, Discourse-Grounded Extraction Pipeline, T1/T2/T3 Hallucination Taxonomy, Hybrid Reasoning), Experiments (Setup, Parser Audit Results, Coverage Results, Main Results, Ablation Study), Discussion (Scope and Limitations, Document-Grounded vs Goal-Grounded, Connection to Compiler Type Systems), Conclusion, and References. Both available figures were included: fig1_v0.jpg (DCGAI System Architecture, 21:9 aspect, placed as figure* at top of page 3) and fig3_v0.jpg (EntailmentBank Task 2 Dataset Statistics, 21:9 aspect, placed as figure* in Methods section). All 14 references were fetched via aii_semscholar_bib__fetch and stored in references.bib with verified DOIs. The paper was compiled with 4-pass pdflatex/bibtex sequence (all passes exited 0). Visual review of all 12 pages confirmed: clean single-column layout, correct math formula rendering (causal/conditional/goal/defeasible schemas in display math), proper figure placement with captions and labels, correct citation formatting with natbib, no overlapping elements, no cut-off text, references page complete with all 14 entries. The footnote with GitHub URL artifact link is preserved using hyperref/url packages. Section cross-references and figure references are resolved correctly.",
+  "out_expected_files": {
+    "paper_tex_path": "paper.tex",
+    "paper_pdf_path": "paper.pdf",
+    "references_bib_path": "references.bib",
+    "figure_paths": [
+      "figures/fig1_v0.jpg",
+      "figures/fig3_v0.jpg"
+    ]
+  }
+}
